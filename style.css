@@ -1,0 +1,178 @@
+html
+{
+	background-image: url("wit.jpg");
+	background-size: cover;
+}
+body 
+{ 
+	font:100% Candara;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-left:200px;
+}
+
+.title
+{
+	font-size: 300%;
+	color: #FFFFFF;
+	text-shadow: 1px 2px #818181;
+	text-align:center;
+}
+
+
+nav 
+{
+  position:fixed;
+  top:0;
+  left:0;
+  width: 200px;
+  height:100%;
+  background:grey;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  font-size: 300%;
+}
+
+
+nav ul 
+{
+  width:200px;
+  list-style-type:none;
+  text-align: center;
+}
+
+
+nav a 
+{
+  padding-right:20px;
+  color: rgb(247, 247, 247);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav a:hover 
+{
+  color: rgba(255, 38, 38, 0.8);
+}
+
+.container:after
+{
+	content: "";
+	display:table;
+	clear:both;
+}
+
+.container
+{
+	font-size:140%;
+	color:white;
+	text-shadow: 1px 2px #303030;
+	
+	width:100%;
+	margin 0 auto;
+}
+
+.columnLeft 
+{
+    float: left;
+	width: 30%;   
+	margin-left: 20px;
+	margin-right:45px;
+	margin-bottom:30px;
+	background-color: rgba(183, 183, 183, 0.4);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom:15px;
+	text-align: center;
+}
+
+.video
+{
+	background-image: url("movie.gif");
+	width:500px;
+	height:281px;
+	background-size: cover;
+	
+	float: left;
+	
+	margin-right:45px;
+	margin-bottom:50px;
+}
+
+div.desc 
+{
+  padding-top: 295px;
+  text-align: center;
+}
+
+div.desc a:hover
+{
+  color: lime;
+}
+
+div.desc a
+{
+	color:red;
+}
+
+div.desc a:link 
+{
+  text-decoration: none;
+}
+
+.columnRight 
+{
+    float: left;
+    width: 30%;
+
+	background-color: rgba(183, 183, 183, 0.4);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom:15px;
+	
+	text-align: center;
+}
+
+* 
+{
+  box-sizing: border-box;
+}
+
+iframe
+{
+	width:70%;
+	height: 720px;
+}
+
+#all
+{
+    width:100%;
+    /*float:left;*/
+    text-align:center;
+}
+
+.sector
+{
+	margin-left: 20px;
+	margin-right:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size:140%;
+	color:white;
+	background-color: rgba(183, 183, 183, 0.3);
+	text-shadow: 1px 2px #303030;
+	margin-bottom:30px;
+}
+
+.container h2
+{
+	font-size:120%;
+}
+
+.columnRight p
+{
+	word-spacing: 5px;
+}

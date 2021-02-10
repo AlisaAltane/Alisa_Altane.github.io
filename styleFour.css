@@ -1,0 +1,213 @@
+html
+{
+	background-color: #465168;
+}
+
+body 
+{ 
+	font:100% Candara;
+	color: #FFFFFF;
+	margin-left:200px;
+}
+
+* 
+{
+  box-sizing: border-box;
+}
+
+nav 
+{
+  position:fixed;
+  top:0;
+  left:0;
+  width: 200px;
+  height:100%;
+  background:grey;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  font-size: 300%;
+}
+
+nav ul 
+{
+	width:200px;
+	list-style-type:none;
+	text-align: center;
+}
+
+nav a 
+{
+  padding-right:20px;
+  color: rgb(247, 247, 247);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/*When you move your mouse over navigation button*/
+nav ul li a:hover 
+{
+  color: rgba(255, 38, 38, 0.8);
+}
+
+h1
+{
+	font-size:300%;
+	font-variant-caps: all-petite-caps;
+}
+
+header
+{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	font-weight:lighter;
+}
+
+header h2
+{
+	font-variant-caps: all-petite-caps;
+	font-size:250%;
+}
+
+.blog
+{
+	text-shadow: 1px 1px #818181;
+	font-size: 120%;	
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	font-weight:lighter;
+	word-spacing: 3px;
+	border-left:5px solid grey; 
+	border-right:5px solid grey; 
+}
+
+div.blog h2
+{
+	font-weight:lighter;
+	background-color:#373737;
+	padding:10px;
+}
+
+div.blog p
+{
+	font-size: 140%;
+}
+
+p.desc
+{
+	word-spacing: 3px;
+}
+
+p.desc a:hover
+{
+  color: lime;
+}
+
+p.desc a
+{
+	color:orange;
+}
+
+p.desc a:link 
+{
+  text-decoration: none;
+}
+
+footer
+{
+	margin: auto;
+	width: 70%;
+	padding-left: 20px;
+	padding-top:15px;
+	padding-bottom:5px;
+	background-color:#373737;
+	border-radius: 30px;
+	box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+	border:1px solid grey;
+}
+
+p.web
+{
+	font-size: 120%;
+	word-spacing: 3px;
+}
+
+p.web a:hover
+{
+  color: lime;
+}
+
+p.web a
+{
+	color:orange;
+}
+
+p.web a:link 
+{
+  text-decoration: none;
+}
+
+
+
+p.a
+{
+	font-size: 120%;
+	word-spacing: 3px;
+}
+
+p.a a:hover	
+{
+	color: #00F7FF;
+}
+
+p.a a
+{
+	color:orange;
+}
+
+p.a a:link 
+{
+  text-decoration: none;
+}
+
+p.line
+{
+	display: inline-block;
+	width:100px;
+}
+
+div.face img
+{
+	width: 7%;
+	float:left;
+}
+
+div.twit img
+{
+	width: 7%;
+	float:left;
+}
+
+div.insta img
+{
+	width: 8.6%;
+	margin-top:4px;
+	float:left;
+
+}
+
+.container:after
+{
+	content: "";
+	display:table;
+	clear:both;
+}
+
+.form
+{
+	width: 18%;
+	float:right;
+}
