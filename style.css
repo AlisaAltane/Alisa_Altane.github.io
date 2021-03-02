@@ -80,7 +80,7 @@ nav a:hover
 	margin-left: 20px;
 	margin-right:45px;
 	margin-bottom:30px;
-	background:grey;
+	background-color: rgb(118, 118, 118);
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom:15px;
@@ -126,7 +126,7 @@ div.desc a:link
     float: left;
     width: 30%;
 
-	background:grey;
+	background-color: rgb(118, 118, 118);
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom:15px;
@@ -162,7 +162,7 @@ iframe
 	padding-right: 15px;
 	font-size:140%;
 	color:white;
-	background:grey;
+	background-color: rgb(118, 118, 118);
 	text-shadow: 1px 2px #404040;
 	margin-bottom:30px;
 }
