@@ -67,7 +67,7 @@ nav a:hover
 {
 	font-size:140%;
 	color:white;
-	text-shadow: 1px 2px #303030;
+	text-shadow: 1px 2px #404040;
 	
 	width:100%;
 	margin 0 auto;
@@ -80,7 +80,7 @@ nav a:hover
 	margin-left: 20px;
 	margin-right:45px;
 	margin-bottom:30px;
-	background-color: rgba(183, 183, 183, 0.4);
+	background:grey;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom:15px;
@@ -126,7 +126,7 @@ div.desc a:link
     float: left;
     width: 30%;
 
-	background-color: rgba(183, 183, 183, 0.4);
+	background:grey;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom:15px;
@@ -162,8 +162,8 @@ iframe
 	padding-right: 15px;
 	font-size:140%;
 	color:white;
-	background-color: rgba(183, 183, 183, 0.3);
-	text-shadow: 1px 2px #303030;
+	background:grey;
+	text-shadow: 1px 2px #404040;
 	margin-bottom:30px;
 }
 
