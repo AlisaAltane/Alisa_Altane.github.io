@@ -19,7 +19,7 @@ nav
   left:0;
   width: 200px;
   height:100%;
-  background:grey;
+  background-color:#575757;
   display:flex;
   flex-direction:column;
   align-items:center;
