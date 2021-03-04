@@ -139,8 +139,9 @@ input[name="r"]
 
 footer
 {
-	left:45%;
-	position: fixed;
+    background-color: #465168;
+    left:45%;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
