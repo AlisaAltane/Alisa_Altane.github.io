@@ -10,6 +10,13 @@ body
 	margin-left:200px;
 }
 
+.title
+{
+	text-shadow: 1px 1px #818181;
+	text-align:center;
+	font-weight:lighter;
+}
+
 nav 
 {
   position:fixed;
