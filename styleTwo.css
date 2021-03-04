@@ -8,7 +8,6 @@ body
 { 
 	font:100% Candara;
 	color: #FFFFFF;
-	text-shadow: 1px 1px #818181;
 	margin-left:200px;
 }
 
@@ -74,7 +73,7 @@ nav a:hover
 	padding:15px;
 	margin-left:20px;
 	word-spacing: 10px;
-	
+	text-shadow: 1px 1px #818181;
 	border-radius: 25px;
 	border:1px;
 	border-style: outset;
@@ -93,7 +92,7 @@ nav a:hover
 	padding:15px;
 	margin-left:20px;
 	word-spacing: 7px;
-	
+	text-shadow: 1px 1px #818181;
 	border-radius: 25px;
 	border:1px;
 	border-style: outset;
@@ -128,6 +127,7 @@ div.release a:link
   margin-left:20px;
   width: 70%;
   text-align: center;
+  text-shadow: 1px 1px #818181;
 }
 
 #table td, #table th 
