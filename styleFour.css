@@ -1,13 +1,10 @@
-html
-{
-	background-color: #232E47;
-}
 
 body 
 { 
 	font:100% Candara;
 	color: #FFFFFF;
 	margin-left:200px;
+	background-color: #232E47;
 }
 
 * 
